@@ -1,2 +1,2 @@
 # Whiteboard
-A simple drawing application with undo and redo functionality using SFML.
+A simple drawing application with undo and redo functionality using SFML.✏
