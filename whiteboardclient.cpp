@@ -292,6 +292,7 @@ void poll_events(RenderWindow &window,SOCKET client_socket, stack<Drawing_Action
                     redo.pop();
                 }
                 actionGraph.Add_action(action);
+                send_vertices(client_socket,canvas.lines);
             }
         }
         else if (ev.type == Event::MouseButtonReleased)
